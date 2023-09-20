@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header nav a.active {
+  color: rgb(0, 0, 212);
+}
+
+aside a.active {
+  border-bottom: 2px solid rgb(0, 0, 212);
+  transition: all 200ms ease-in-out;
+}
